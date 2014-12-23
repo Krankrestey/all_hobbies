@@ -1,3 +1,4 @@
+<?php include 'header.html'; ?>
 <table align = "center" width = 1000 border = 0>
 	<tr>
 	<td width = 70% valign = top>
