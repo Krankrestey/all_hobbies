@@ -4,7 +4,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body background="../images/fon.jpg">
+	<body background="images/fon.jpg">
+			<?php include 'header.html';?>
 			<div style="width:70%; margin:0 auto; background:rgba(255,255,255,0.7); border:solid 1px #aaa; border-radius:20px; margin-top:50px; margin-bottom:50px; padding:20px;">
 					<center><h1>Что вы знаете о Pole Dance?</h1></center>
 					<p><font size="5">Если вас спросят, знаете ли вы что представляет собой танец на пилоне, так же известный как шестовая акробатика, пилонный танец, pole dance, вряд ли вы скажете, что это вид спорта, хотя на самом деле так оно и есть. Не нужно путать шестовую акробатику с той же стрип-пластикой. Потому что это требующий значительных физических нагрузок спорт. Вы можете себе представить гимнаста на перекладине? Вот и с пилоном примерно также, только в вертикальном положении.</font></p><br>
