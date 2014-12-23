@@ -7,6 +7,7 @@
 	</head>
 	<body background="images/fon.jpg" style='padding: 0; margin: 0'>
 		<?php include 'header.html';?>
+		<div style="width:70%; margin:0 auto; background:rgba(255,255,255,0.7); border:solid 1px #aaa; border-radius:20px; margin-top:50px; margin-bottom:50px; padding:20px;">
 		<table style="margin: 30; table-layout:fixed;" align=center width=90%><tr><td style="word-wrap:break-word;">
 					<h2 class="dserov_head" align=center>Моё хобби - Редактирование Википедии</h2>
 					<h3 class="dserov_head" align=center>Небольшой рассказ о том, чем я занимаюсь в свободное время</h3></tr></td>
@@ -27,5 +28,6 @@
 		<p class="dserov_text"><b><i>Дмитрий Серов, 3 декабря 2014</i></b></p><hr style="margin:40;">
 		</tr></td>
 		</table>
+		</div>
 	</body>
 </html>
