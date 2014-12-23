@@ -2,7 +2,7 @@
 <head>
 <title>Мое хобби.</title>
 </head>
-<?php include 'header.php'; ?>
+<?php include 'header.html'; ?>
    <br>
    <div align=justify style="overflow:hidden; width:75%; margin:0 auto; background:rgba(255,255,255,0.8); padding:35; padding-top:30; padding-bottom:30; border:solid 1px #aaa; border-radius:20px;">
    <font color="#000000" size=4 face="Andalus">
