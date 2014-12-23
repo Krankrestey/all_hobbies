@@ -13,7 +13,7 @@
 
 	</head>
 	<body background="~semushenko/pics/fon.png" bgcolor="cdb2d4" text="000000" link="4a005e" vlink="5c0051" alink="3c1d40">
-<php?
+<?php
 include 'header.html';
 ?>	
 	<font face="Garamond" size="5">
