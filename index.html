@@ -1,0 +1,151 @@
+﻿<html>
+<style>
+.logo{
+	height:300px;
+	width:300px;
+	border:solid 1px #ccc;
+	border-radius:300px;
+}
+a{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20;
+	color:blue;
+}
+td{
+	padding-bottom:20px;
+}
+</style>
+<SCRIPT type="text/javascript">
+	var snowmax=35;
+	var snowcolor=new Array("#AAAACC","#DDDDFF","#CCCCDD","#F3F3F3","#F0FFFF","#FFFFFF","#EFF5FF")
+	var snowtype=new Array("Arial Black","Arial Narrow","Times","Comic Sans MS");
+	var snowletter="*";
+	var sinkspeed=0.6; 
+	var snowmaxsize=28;
+	var snowminsize=10;
+	var snowingzone=1;
+	var snow=new Array();
+	var marginbottom;
+	var marginright;
+	var timer;
+	var i_snow=0;
+	var x_mv=new Array();
+	var crds=new Array();
+	var lftrght=new Array();
+	var browserinfos=navigator.userAgent;
+	var ie5=document.all&&document.getElementById&&!browserinfos.match(/Opera/);
+	var ns6=document.getElementById&&!document.all;
+	var opera=browserinfos.match(/Opera/);
+	var browserok=ie5||ns6||opera;
+	function randommaker(range) {
+		rand=Math.floor(range*Math.random());
+		return rand;
+	}
+	function initsnow() {
+		if (ie5 || opera) {
+			marginbottom=document.body.clientHeight;
+			marginright=document.body.clientWidth;
+		}
+		else if (ns6) {
+			marginbottom=window.innerHeight;
+			marginright=window.innerWidth;
+		}
+		var snowsizerange=snowmaxsize-snowminsize;
+		for (i=0;i<=snowmax;i++) {
+			crds[i]=0;
+			lftrght[i]=Math.random()*15;
+			x_mv[i]=0.03+Math.random()/10;
+			snow[i]=document.getElementById("s"+i);
+			snow[i].style.fontFamily=snowtype[randommaker(snowtype/length)];
+			snow[i].size=randommaker(snowsizerange)+snowminsize;
+			snow[i].style.fontSize=snow[i].size+"px";
+			snow[i].style.color=snowcolor[randommaker(snowcolor.length)];
+			snow[i].sink=sinkspeed*snow[i].size/5;
+			if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+			if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+			if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+			if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+			snow[i].posy=randommaker(2*marginbottom-marginbottom-2*snow[i].size);
+			snow[i].style.left=snow[i].posx+"px";
+			snow[i].style.top=snow[i].posy+"px";
+		}
+		movesnow();
+	}
+	function movesnow() {
+		for(i=0;i<=snowmax;i++) {
+			crds[i]+=x_mv[i];
+			snow[i].posy+=snow[i].sink;
+			snow[i].style.left=snow[i].posx+lftrght[i]*Math.sin(crds[i])+"px";
+			snow[i].style.top=snow[i].posy+"px";
+			if (snow[i].posy>=marginbottom-2*snow[i].size || parseInt(snow[i].style.left)>(marginright-3*lftrght[i])) {
+				if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+				if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+				if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+				if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+				snow[i].posy=0;
+			}
+		}
+		var timer=setTimeout("movesnow()",50);
+	}
+	for (i=0;i<=snowmax;i++) {
+		document.write("<span id='s"+i+"' style='z-index:10;position:absolute;top:-"+snowmaxsize+"px;'>"+snowletter+"</span>");
+	}
+	if (browserok) {
+		window.onload=initsnow;
+	}
+</SCRIPT>
+<head><title>Хобби групп 14201, 14202</title></head>
+<body background="images/fon.jpg">
+<div style="border:solid 1px #ccc; border-radius:10px; width:70%; min-width:1180px; background:rgba(255,255,255,0.7); margin: 0 auto; margin-top:50px; padding: 20 0 0 0">
+<table width=100%>
+<tr>
+<td align="center"><a href="saltuk.php"><img class=logo src="logos/saltuk.PNG"></a><br><br>
+<a href="saltuk.php">Салтук Константин</a></td>
+<td align="center"><a href="mahina/hobby.php"><img class=logo src="logos/mahina.jpg"></a><br><br>
+<a href="mahina/hobby.php">Махина Екатерина</a></td>
+<td align="center"><a href="klokov/hobby.php"><img class=logo src="logos/klokov.jpg"></a><br><br>
+<a href="klokov/hobby.php">Клоков Денис</a></td>
+</tr>
+<tr>
+<td align="center"><a href="boldakov.php"><img class=logo src="logos/boldakov.png"></a><br><br>
+<a href="#">Болдаков Валерий</a></td>
+<td align="center"><a href="shashok.php"><img class=logo src="logos/shashok.png"></a><br><br>
+<a href="shashok/hobby.php">Шашок Наталья</a></td>
+<td align="center"><a href="yan.php"><img class=logo src="logos/yan.jpg"></a><br><br>
+<a href="yan/hobby.php">Ян Игорь</a></td>
+</tr>
+<tr>
+<td align="center"><a href="loginovsky/hobby.php"><img class=logo src="logos/loginovsky"></a><br><br>
+<a href="#">Логиновский Степан</a></td>
+<td align="center"><a href="samarin.php"><img class=logo src=https://pp.vk.me/c320725/v320725982/a952/EAxoZy8okbo.jpg></a><br><br>
+<a href="#">Самарин Ромочка</a></td>
+<td align="center"><a href="mkirichenko/index.html"><img class=logo src=http://cs322918.vk.me/v322918613/5604/TNaIe6-UaXw.jpg></a><br><br>
+<a href="mkirichenko/index.html">Кириченко Михаил</a></td>
+</tr>
+<tr>
+<td align="center"><a href="chernova/hobby.html"><img class=logo src="logos/chernova.jpg"></a><br><br>
+<a href="chernova/hobby.html">Чернова Екатерина</a></td>
+<<<<<<< HEAD
+<td align="center"><a href="lipatkin/index1.html"><img class=logo src=http://vespo.com.ua/wp-content/uploads/2013/02/vespo.jpg></a><br><br>
+<a href="lipatkin/index1.html">Липаткин Артём</a></td>
+=======
+<td align="center"><a href="lipatkin.php"><img class=logo src=http://vespo.com.ua/wp-content/uploads/2013/02/vespo.jpg></a><br><br>
+<a href="#">Липаткин Артём</a></td>
+>>>>>>> origin/master
+<td align="center"><a href="kmarchenko/hobby.php"><img class=logo src="logos/kmarchenko.jpg"></a><br><br>
+<a href="kmarchenko/hobby.php">Марченко Кристина</a></td>
+</tr>
+<tr>
+<td align="center"><a href="dserov.php"><img class=logo src="logos/dserov.jpg"></a><br><br>
+<a href="dserov.php">Серов Дмитрий</a></td>
+<td align="center"><a href="semushenko.php"><img class=logo src="logos/semushenko.jpg"></a><br><br>
+<a href="semushenko.php">Семушенко Алёна</a></td>
+<td align="center"><a href="#"><img class=logo src=http://cs322918.vk.me/v322918613/5604/TNaIe6-UaXw.jpg></a><br><br>
+<a href="#">Зарезервированное место</a></td>
+</tr>
+</table>
+</div>
+<div style="height: 50px"></div>
+</body>
+</html>

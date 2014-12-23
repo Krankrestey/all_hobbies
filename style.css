@@ -1,0 +1,256 @@
+﻿/*Стили шапки*/
+.textsh{
+	margin:0px auto;
+	width:300px;
+	overflow:hidden;
+	font-size:17px;
+	color:#555;
+	background:rgba(255,255,255,0.6);
+	border:solid 1px #aaa;
+	border-radius:20px;
+	text-align:center;
+	cursor: pointer;
+}
+.textsh:hover{
+	margin:0px auto;
+	width:300px;
+	overflow:hidden;
+	font-size:17px;
+	color:#555;
+	background:white;
+	border:solid 1px #aaa;
+	border-radius:20px;
+	text-align:center;
+	cursor: pointer;
+}
+#outer_container{
+	margin:0px;
+	margin-left:-10px;
+	margin-top:-15px;
+	width:101%;
+	height:110px;
+	padding:0 5px;
+}
+#thumbScroller{
+	position:relative;
+	left:-5;
+	overflow:hidden;
+}
+#thumbScroller .container{
+	position:relative;
+	left:0;
+}
+#thumbScroller .content{
+	float:left;
+}
+#thumbScroller .content div{
+	margin:10px;
+	height:100%; 
+	margin-left:20px; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:13px;
+}
+#thumbScroller img{
+	border:solid 1px #aaa; 
+	border-radius:100px; 
+	height:100px; 
+	width:100px;
+}
+/*Конец стилей шапки*/
+/*Стили Сатука Кости */
+.el{ 
+	font-family: "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+	position: relative;
+	width: 60%;
+	overflow: hidden;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: solid 1px #cccccc;
+	border-radius:10px; 
+	-webkit-border-radius:10px; 
+	-moz-border-radius:10px; 
+	-khtml-border-radius: 10px;
+	}
+.newim{
+	width: 400;
+	height: 300;
+	margin-left: 0;
+	float: left;
+	padding-right: 25;
+	}
+.zagolovokn{
+	font-family: "Segoe UI", "Helvetica Neue", Helvetica, Tahoma, Arial;
+	font-size: 30px;
+	font-weight:bold;
+	text-align: left;
+	line-height: 1.2;
+	color: black;
+	padding-right: 25px;
+	margin-bottom: 0;
+	margin-top: -15;
+	float:bottom;
+	} 
+/* Конец стилей Салтука Кости */
+/* Стили Серова Дмитрия */
+.dserov_head {
+	font-family: 'Open Sans', 'Verdana', sans-serif;
+	line-height: 0.7;
+}
+.dserov_text {
+	font-family: 'Open Sans', 'Verdana', sans-serif;
+	white-space: pre-wrap;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+}
+/* Конец стилей Дмитрия Серова */
+
+/* Начало стилей Липаткина Артёма */
+
+body.lipatkin{
+	background: url("images/fon.jpg") ;
+	background-attachment: fixed;
+	/*background-color: #40E0D0;*/
+	font-family: Georgia, Arial, Verdana, sans-serif;
+}
+
+h1.lipatkin{
+	font-family: Calibri;
+	text-align: center;
+	color:#F5DEB3;
+	padding: 1em 0;
+	font-size:2.5em;
+
+	/*text-shadow:#fff 0px 1px 0, #000 0 2px 0;*/
+	text-shadow:3px 3px 10px red,-3px -3px 10px yellow;
+	/*color: #101921;*/
+}
+
+#lipatkin_text{
+	background: rgba(0, 206, 209, 0.9);
+
+	margin: 10px auto;
+	padding: 40px;
+	width: 60%;
+	font-size: 1.1em;
+	border-radius: 15px;
+}
+
+#lipatkin_text img{
+	padding: 10px 0;
+}
+
+#lipatkin_text h3{
+	font-size: 1.4em;
+}
+
+#lipatkin_text p{
+	text-indent: 10mm;
+	text-align: justify;
+}
+
+#lipatkin_jump_up{
+	clear: left;
+	background: rgba(0, 206, 209, 0.9);
+
+}
+
+#lipatkin_jump_up p{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/* Конец стилей Липаткин Артёма */
+
+/* Начало стилей Биндера Сергея */
+
+body.binder {
+    background: #606060;
+    padding: 6px;
+    border: 1px solid #333;
+    font-size: 25pt;
+    font-family: tahoma;
+    color: white;
+    text-shadow: blue 1px 0px, blue 1px 1px, blue 0px 1px, blue -1px 1px, blue -1px 0px, blue -1px -1px, blue 0px -1px, blue 1px -1px;
+    line-height: 1em;
+    word-wrap: break-word;
+    height: auto;
+    text-indent: 1em;
+    padding: 6px;
+}
+
+h1.binder, h2.binder, h3.binder {
+    text-indent: 0px;
+    text-align: center;
+}
+
+h1.binder {
+    padding: 2px;
+    margin: 2px;
+    line-height: 1em;
+}
+h2.binder {
+    font-size: 45pt;
+    text-shadow: black 3px 3px;
+}
+h3.binder {
+    font-size: 35pt;
+}
+.sl1_binder {
+    font-size: 20pt;
+    padding: inherit;
+    margin: 0;
+    text-indent: 1em;
+}
+div.remark_binder {
+    padding: 0.5em;
+    text-indent: 1em;
+    margin: 0px;
+    font-style: italic;
+    font-family: lucida;
+}
+div.quote_binder {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: verdana;
+    padding: 1em;
+}
+img.binder {
+    border: solid 2px black;
+    background-color: white;
+}
+table.map_binder {
+    font-size: 40pt;
+    vertical-align: top;
+    width: 100%;
+}
+img.logo_binder {
+    text-indent: 0px;
+    background-color: inherit;
+    width: 50%;
+    border: none;
+}
+p.mapdet_binder {
+    font-size: 18pt;
+    padding: 3em;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    color: yellow;
+}
+
+
+a.binder {
+    color: inherit;
+    text-shadow: red 1px 0px, red 1px 1px, red 0px 1px, red -1px 1px, red -1px 0px, red -1px -1px, red 0px -1px, red 1px -1px;
+}
+a.binder:hover {
+    text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px;
+}
+center.binder {
+    text-indent: 0px;
+}
+
+/* Конец стилей Биндера Сергея */
