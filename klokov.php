@@ -2,6 +2,8 @@
 <head>
 <title>Мое хобби.</title>
 </head>
+</head>
+<body background="images/fon.jpg">
 <?php include 'header.html'; ?>
    <br>
    <div align=justify style="overflow:hidden; width:75%; margin:0 auto; background:rgba(255,255,255,0.8); padding:35; padding-top:30; padding-bottom:30; border:solid 1px #aaa; border-radius:20px;">
