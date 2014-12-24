@@ -1,7 +1,8 @@
 
 <html>
-	
-	<body background="images/fon.png" style='padding: 0; margin: 0'>
+	<head>
+	</head>
+	<body background="images/fon.png" >
 
 <?php include 'header.html'; ?>
 <style>
@@ -36,8 +37,7 @@ Im Maxim
 <td><p align="center"><font color="#424242" size="7">LIVERPOOL</font></p></td>
 </tr></table>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br>
+<br><br><br><br>
 <style>
 div.radius{
 	border-radius: 20px;
