@@ -89,7 +89,7 @@ p,h1,h2{
 </head>
 <body>
 <?php
-include('head.php');
+include('header.php');
 ?>
 <div>
 	<h1>Моё хобби</h1>
