@@ -10,7 +10,7 @@
 	<p align = center>
 	<img src = "https://pp.vk.me/c625720/v625720825/c004/DUPyo0SOUlo.jpg" width = 250>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://pp.vk.me/c625720/v625720825/bffb/vLCRs-ebkvk.jpg" width = 300></p>
 	My hobbies is olympiad programming. The main goal of competitions is solving problems faster as possible.
-	It is popular in our time. There are many web-sites where you can training your skills in this field of science.
+	It is popular in our time. There are many web-sites where you can train your skills in this field of science.
 	I often participate in international competitions.
 	<br><br>
 	For example, <a href = "codeforces.com/profile/romchela">Codeforces</a>. You have 5 problems and 2 hours for solving them. After contest you will have a rating. You can see my progress at
@@ -21,12 +21,12 @@
 	
 	<br><br>
 	<center><img src = http://campuscurico.utalca.cl/~foro-icpc/wiki/styles/icpc/logo.png></center><br>
-	We have ACM ICPC. It is World Cup of the olympiad programming. You have three persons, one computer and 5 hours for solving 12 problems. We try hard to qualify for the final. It is the main my goal now. It is prestigious and in the future these achievements can help you with work.
+	We have ACM ICPC. It is World Cup of the olympiad programming. You have three persons, one computer and 5 hours for solving 12 problems. We try hard to qualify for the final. It is the main my goal now. It is prestigious and in the future these achievements can help with work.
 	<br><br><center><img src = "https://pp.vk.me/c625720/v625720825/bff2/ybcPuhsY1yg.jpg" height = 400></center>
 	<br>This is my team from my university. This picture was made in time of fall training camp in MIPT, Moscow.<br>
 	</td>
 	<td width = 30% valign = top>
-	<img src = "mephisto.ccfit.ru/~vishnevsky/files/iam.png" width = 100%>
+	<img src = "http://mephisto.ccfit.ru/~vishnevsky/files/iam.png" width = 100%>
 	</td>
 	</tr>
 </table>
