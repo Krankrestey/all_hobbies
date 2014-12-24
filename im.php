@@ -1,3 +1,8 @@
+
+html>
+	
+	<body background="images/fon.png" style='padding: 0; margin: 0'>
+
 <?php include 'header.html'; ?>
 <style>
 
@@ -140,3 +145,6 @@ if you think what club to support - think about Liverpool, it's good choice!
 <td align="bottom" valign = top>
 	<img src = "images/im_adidas.jpg" width = 800px>
 	</td></tr></table>
+	
+	</body>
+</html>
