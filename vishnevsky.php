@@ -26,7 +26,7 @@
 	<br>This is my team from my university. This picture was made in time of fall training camp in MIPT, Moscow.<br>
 	</td>
 	<td width = 30% valign = top>
-	<img src = "http://mephisto.ccfit.ru/~vishnevsky/files/iam.png" width = 100%>
+	<img src = "http://mephisto.ccfit.nsu.ru/~vishnevsky/files/iam.png" width = 100%>
 	</td>
 	</tr>
 </table>
