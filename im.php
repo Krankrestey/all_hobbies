@@ -1,5 +1,5 @@
 
-html>
+<html>
 	
 	<body background="images/fon.png" style='padding: 0; margin: 0'>
 
