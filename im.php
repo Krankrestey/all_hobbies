@@ -2,7 +2,7 @@
 <html>
 	<head>
 	</head>
-	<body background="images/fon.png" >
+	<body background="images/fon.jpg" >
 
 <?php include 'header.html'; ?>
 <style>
