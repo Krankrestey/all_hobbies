@@ -5,7 +5,7 @@
   <title>Хобби</title>
   <style>
   body {
-    background: url(http:\\ccfit.nsu.ru/~saltuk/images/fon.jpg);
+    background: url(images/fon.jpg);
     margin: auto;
   }
   #Header {
