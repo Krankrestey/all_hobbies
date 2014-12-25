@@ -1,13 +1,12 @@
+
+<html>
+	<head>
+	</head>
+	<body background="images/fon.jpg" >
+
 <?php include 'header.html'; ?>
 <style>
-body 
-{
-background-color:#000000;
-background-image: url(vorota.jpg);
- background-repeat: no-repeat;
-    background-position: center top; overflow: auto;
-background-attachment: scroll;
-}
+
 text-align: center;
 scrolling="yes";
 
@@ -38,8 +37,7 @@ Im Maxim
 <td><p align="center"><font color="#424242" size="7">LIVERPOOL</font></p></td>
 </tr></table>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br>
+<br><br><br><br>
 <style>
 div.radius{
 	border-radius: 20px;
@@ -98,7 +96,7 @@ My favourite player - Steven Gerrard,  a legend of Liverpool, England National T
 <table border="0" cellspacing="0" width="500px" height="800px" align="center">
 <tr>
 <td align="center" valign = top>
-	<img src = "image/im_istanbul.jpg" width = 700px align="center">
+	<img src = "images/im_istanbul.jpg" width = 700px align="center">
 	</td></tr></table>
 
 <br><br>
@@ -128,7 +126,7 @@ src="//www.youtube.com/embed/4ZFHwJMIWUA" frameborder="0" allowfullscreen>
 <tr>
 
 <td align="center" valign = top>
-	<img src = "image/im_car.jpg" width = 800px>
+	<img src = "images/im_car.jpg" width = 800px>
 	</td></tr></table>
 
 
@@ -145,5 +143,8 @@ if you think what club to support - think about Liverpool, it's good choice!
 <table border="0" cellspacing="0" width="800px" height="500px" align="center">
 <tr>
 <td align="bottom" valign = top>
-	<img src = "image/im_adidas.jpg" width = 800px>
+	<img src = "images/im_adidas.jpg" width = 800px>
 	</td></tr></table>
+	
+	</body>
+</html>
