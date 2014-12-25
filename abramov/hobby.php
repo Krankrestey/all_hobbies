@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include('header.реьд');
 ?>
 <html>
 <head>
@@ -10,10 +10,12 @@ include('header.php');
 </title>
 </head>
 <body>
-    <body background="images/fon.jpg">
+    <body background="fon.jpg">
 <?php
 echo 
 "  <div class='print'>  
+<p><h1>Мое хобби</h1></p>
+<br>
 <p>    Я, Абрамов Александр, сейчас учусь в НГУ на ФИТе.
 <br>Я решил не заморачиваться с хобби)
 <br>У меня не очень много увлечений, и расскажу я вам только об одном.</p>
