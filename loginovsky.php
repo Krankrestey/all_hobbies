@@ -12,7 +12,7 @@ body {
 	background-size:cover;
 	background-attachment:fixed;
 }
-div {
+div .lclasso {
 	
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
@@ -72,7 +72,7 @@ body{
 	background-size:auto;
 	background-attachment:scroll;
 }
-div{
+div .lclasso{
 	width:66%;
 	background-color:rgba(255,255,255,0.7);
 	margin:auto;
@@ -91,7 +91,7 @@ p,h1,h2{
 <?php
 include('header.html');
 ?>
-<div>
+<div class="lclasso">
 	<h1>Моё хобби</h1>
 	<p>Я долго думал про какое хобби мне написать, но потом понял, что кроме доты(про которую уже написал мой одногруппник) я ничем по сути не увлекаюсь.
 К счастью я вспомнил, что в детстве я занимался гитарой. Да да, я один из тех миллионов, которые умеют играть на гитаре.</p>
