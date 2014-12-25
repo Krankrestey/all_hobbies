@@ -29,7 +29,7 @@
 										На этом сайте я попытаюсь научить плести несложные браслетики новичков, а те, кто уже хорошо знаком с бисероплетением, смогут найти здесь интересные схемы плетения фенечек и животных.</b></center></font></font>
 			</div></td></tr>
 			<tr>
-				<td width="1100">
+				<td width="1250">
 					<br>
 					<font size="+2">Прежде, чем приступить к работе, давай посмотрим, все ли у нас есть?
 					<ul>
@@ -64,10 +64,7 @@
 
 
 				</td>
-				<td valign="top" width="150"><div align="right">
-						<a href="images/fenechki.php"><img src="images/fenechki.png" width="150"></a>
-						<a href="images/animals.php"><img src="images/animals.png" width="150"></a>
-				</div></td>
+				
 			</tr>
 		</table></center>
 	</body>
