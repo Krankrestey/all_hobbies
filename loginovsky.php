@@ -3,93 +3,12 @@
 <meta charset="utf-8">
 <title>Хобби</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="hstyle.css">
-<style type="text/css">
-body {
-	font-family: Helvetica, Arial, Verdana;
-	font-size:10pt;
-	margin:0px;
-	background-image:url(images/tower-of-night.jpg);
-	background-size:cover;
-	background-attachment:fixed;
-}
-div {
-	
-	-webkit-border-radius:8px;
-	-moz-border-radius:8px;
-	align:center;
-}
-a{
-	text-decoration:none;
-}
-nav{
-	background:#222b31;
-	font-color:white;
-	height:7%;
-	width:100%;
-	margin:0px;
-	top:0px;
-}
-nav li{
-	display:inline-block;
-	list-style-type:none;
-	margin:inherit;
-	padding:10px;
-}
-nav ul{
-	margin:inherit;
-}
-nav a{
-	text-decoration:none;	
-	color:white;
-	padding:10px;
-	border:3px solid black;
-}
-nav a:hover{
-	border:3px solid white;
-}
-.right{
-	left:10px;
-}
-.hello{
-	position:relative;
-	left:50px;
-}
-.content-box{
-	background: RGBA(157,157,157,0.7);
-	color:black; 
-	width:55%;
-	padding:7px;
-	margin:auto;
-	margin-bottom:20px;
-	font-size:14pt;
-}
-.comment-link{
-	text-align:right;
-	
-}
-body{
-	background-image:url(/~saltuk/Hobbies/images/fon.jpg);
-	background-size:auto;
-	background-attachment:scroll;
-}
-div{
-	width:66%;
-	background-color:rgba(255,255,255,0.7);
-	margin:auto;
-	margin-top:20px;
-	border:2px ridge black;
 
-}
-p,h1,h2{
-	padding:10px;
-}
 
-</style>
 </head>
 <body>
 <?php
-include('header.php');
+include('header.html');
 ?>
 <div>
 	<h1>Моё хобби</h1>
