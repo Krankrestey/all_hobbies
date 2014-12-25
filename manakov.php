@@ -6,6 +6,7 @@
 <body>
 <body background="images/fon.jpg">
 <?php include 'header.html'; ?>
+   <div align=justify style="overflow:hidden; width:75%; margin:0 auto; background:rgba(255,255,255,0.8); padding:35; padding-top:30; padding-bottom:30; border:solid 1px #aaa; border-radius:20px;">
 		<div class="talking">
 			<h3><p> Я уже давно пытался вспомнить что-нибудь, что можно назвать моим хобби, но, так как полсе поступления в универ я совсем его забросил, вспомнил о нем только чейчас. Своим хобби я могу назвать настольные игры. Я играл в превиликое множество настольных игр, но приведу лишь самые интересные, так как иначе, мне не хватит ни моего ни вашего времени.</br></p>
 		</h3>
@@ -57,6 +58,7 @@
 				<img src="manakov/wh8.jpeg" width = "900" height= "600">
 
 			</div>
+		</div>
 		</div>
 	</body>
 </html>
