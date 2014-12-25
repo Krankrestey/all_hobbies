@@ -7,13 +7,13 @@
         <link href="css/menu.css" rel="stylesheet" type="text/css" />
 		<link href="css/newsblock.css" rel="stylesheet" type="text/css" />
     </head>
-    <body background="/~saltuk/Hobbies/images/fon.jpg">
+    <body background="images/fon.jpg">
         <header>
         <!--    <h2><center>О хобби, чо.</center></h2> -->
            
         </header>
 
-        <?php// include 'header.php'; ?>
+        <?php include 'header.html'; ?>
 		<div style="width:70%; margin:0 auto; background:rgba(255,255,255,0.7); border:solid 1px #aaa; border-radius:20px; margin-top:50px; margin-bottom:50px; padding:20px;">
 		
 		<h2><center>О хобби, чо.</center></h2>

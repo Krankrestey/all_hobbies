@@ -7,8 +7,8 @@
 body {
 	font-family: Helvetica, Arial, Verdana;
 	font-size:10pt;
-	margin:0px;
-	background-image:url(images/tower-of-night.jpg);
+	margin:25px;
+	
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -68,7 +68,7 @@ nav a:hover{
 	
 }
 body{
-	background-image:url(/~saltuk/Hobbies/images/fon.jpg);
+	background-image:url(images/fon.jpg);
 	background-size:auto;
 	background-attachment:scroll;
 }
@@ -87,7 +87,7 @@ p,h1,h2{
 </style>
 
 </head>
-<body>
+<body background="images/fon.jpg>
 <?php
 include('header.html');
 ?>

@@ -1,4 +1,5 @@
 <?php include 'header.html'; ?>
+<body background="images/fon.jpg">	
 <table align = "center" width = 1000 border = 0>
 	<tr>
 	<td width = 70% valign = top>
@@ -30,3 +31,4 @@
 	</td>
 	</tr>
 </table>
+</body>
