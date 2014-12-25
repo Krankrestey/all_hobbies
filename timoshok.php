@@ -1,5 +1,7 @@
 <html>
-<body text="#AA0055" bgcolor="#999999">
+<body background="images/fon.jpg">
+<?php include 'header.html'; ?>
+   <div align=justify style="overflow:hidden; width:75%; margin:0 auto; background:rgba(255,255,255,0.8); padding:35; padding-top:30; padding-bottom:30; border:solid 1px #aaa; border-radius:20px;">
 	<center><h1><u> Мое хобби - реставрация старых машин </u></h1></center>
 	<center><img src="https://b-a.d-cd.net/61c29ccs-200.jpg"><br></center>
 	<h3>Доброго времени суток дорогой читатель! <br>
@@ -8,5 +10,6 @@
 <br>
 </h3>
 <h4> Если вам захотелось узнать больше о моем увлечении, можете узнать больше в "боротвом журнале" <a href="http://www.drive2.ru/r/lada/957922/");>DRIVE2.ru</a></h4>
+</div>
 </body>
 </html>
