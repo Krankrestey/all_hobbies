@@ -1,5 +1,5 @@
 <?php
-include('header.html');
+include 'header.html';
 ?>
 <html>
 <head>
@@ -45,17 +45,17 @@ echo
 <p align='center'>10)Отцы и дети</p>
 <br>
 <p align='center'>
-<img height='220px' width='140px' src='images/1а.jpg'>
-<img height='220px' width='140px' src='images2а.jpg'>
-<img height='220px' width='140px' src='images3а.jpg'>
-<img height='220px' width='140px' src='images4а.jpg'>
-<img height='220px' width='140px' src='images5а.jpg'>
+<img height='220px' width='140px' src='images\1а.jpg'>
+<img height='220px' width='140px' src='images\2а.jpg'>
+<img height='220px' width='140px' src='images\3а.jpg'>
+<img height='220px' width='140px' src='images\4а.jpg'>
+<img height='220px' width='140px' src='images\5а.jpg'>
 <br>
-<img height='220px' width='140px' src='images6а.jpg'>
-<img height='220px' width='140px' src='images7а.jpg'>
-<img height='220px' width='140px' src='images8а.jpg'>
-<img height='220px' width='140px' src='images9а.jpg'>
-<img height='220px' width='140px' src='images11а.jpg'></p></div>";
+<img height='220px' width='140px' src='images\6а.jpg'>
+<img height='220px' width='140px' src='images\7а.jpg'>
+<img height='220px' width='140px' src='images\8а.jpg'>
+<img height='220px' width='140px' src='images\9а.jpg'>
+<img height='220px' width='140px' src='images\11а.jpg'></p></div>";
 ?>
 </body>
 </html>
