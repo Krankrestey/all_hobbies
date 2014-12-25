@@ -1,7 +1,4 @@
-<?php
-include 'header.html';
-?>
-<html>
+﻿<html>
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="conf.css">
@@ -9,8 +6,8 @@ include 'header.html';
     Просто сайт
 </title>
 </head>
-<body>
-    <body background="images\fon.jpg">
+<body background="images/fon.jpg">
+	<?php include 'header.html';?>
 <?php
 echo 
 "  <div class='print'>  
