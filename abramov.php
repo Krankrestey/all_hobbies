@@ -14,8 +14,7 @@ include('header.html');
 <?php
 echo 
 "  <div class='print'>  
-<p><h1>Мое хобби</h1></p>
-<br>
+<p align='center'><h1>Мое хобби</h1></p>
 <p>    Я, Абрамов Александр, сейчас учусь в НГУ на ФИТе.
 <br>Я решил не заморачиваться с хобби)
 <br>У меня не очень много увлечений, и расскажу я вам только об одном.</p>
@@ -46,17 +45,17 @@ echo
 <p align='center'>10)Отцы и дети</p>
 <br>
 <p align='center'>
-<img height='220px' width='140px' src='1.jpg'>
-<img height='220px' width='140px' src='2.jpg'>
-<img height='220px' width='140px' src='3.jpg'>
-<img height='220px' width='140px' src='4.jpg'>
-<img height='220px' width='140px' src='5.jpg'>
+<img height='220px' width='140px' src='images/1а.jpg'>
+<img height='220px' width='140px' src='images2а.jpg'>
+<img height='220px' width='140px' src='images3а.jpg'>
+<img height='220px' width='140px' src='images4а.jpg'>
+<img height='220px' width='140px' src='images5а.jpg'>
 <br>
-<img height='220px' width='140px' src='6.jpg'>
-<img height='220px' width='140px' src='7.jpg'>
-<img height='220px' width='140px' src='8.jpg'>
-<img height='220px' width='140px' src='9.jpg'>
-<img height='220px' width='140px' src='11.jpg'></p></div>";
+<img height='220px' width='140px' src='images6а.jpg'>
+<img height='220px' width='140px' src='images7а.jpg'>
+<img height='220px' width='140px' src='images8а.jpg'>
+<img height='220px' width='140px' src='images9а.jpg'>
+<img height='220px' width='140px' src='images11а.jpg'></p></div>";
 ?>
 </body>
 </html>
