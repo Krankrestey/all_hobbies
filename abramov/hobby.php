@@ -1,5 +1,5 @@
 <?php
-include('session.php');
+include('header.php');
 ?>
 <html>
 <head>
@@ -10,27 +10,7 @@ include('session.php');
 </title>
 </head>
 <body>
-    <body background="10.jpg">
-<?php
-echo "<div align='right' class='reg'>";
-if (isset($_SESSION['name'])){
-echo "<div align='right' class='reg'> Привет, ";echo $_SESSION['name'];echo "<a href='reg.php?logout=1'><br> Выход</a>";
-echo "</div>";}
-else {
-echo "<a href='reg.php'>Регистрация</a> или <a href='sign-in.php'>Вход</a>";}
-echo "</div>";
-?>
-      <table><table border="1">
-        <tr><tr align="center">
-    <td colspan="4"> <h1><b>Добро пожаловать</b></h1></td>
-</tr>
-<tr><tr align="center">
-            <td><h3><a href="index.php">Главная страница</a></h3></td>
-            <td><h3><a href="hobby.php">Хобби</a></h3></td>
-            <td><a href="blog.php"><h3>Создать блог</a></h3></td>
-            <td><a href="3dprinter.php"><h3>Мои работы</h3></td>
-</tr>
-</table>
+    <body background="images/fon.jpg">
 <?php
 echo 
 "  <div class='print'>  
