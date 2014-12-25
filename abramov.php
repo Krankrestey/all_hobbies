@@ -10,7 +10,7 @@ include 'header.html';
 </title>
 </head>
 <body>
-    <body background="fon.jpg">
+    <body background="images\fon.jpg">
 <?php
 echo 
 "  <div class='print'>  
